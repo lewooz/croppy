@@ -34,13 +34,14 @@ class MaterialImageCropperBottomAppBar extends StatelessWidget {
               height: 40.0,
               child: TextButton(
                 onPressed: () => Navigator.maybePop(context),
-                child: const Text('Cancel'),
+                child: const Text('Cancel', style: TextStyle(color: Color(0xFF8D2AF3)),),
               ),
             ),
             const Spacer(),
             SizedBox(
               height: 40.0,
               child: FilledButton(
+                style: ButtonStyle(backgroundColor: MaterialStateProperty.all(const Color(0xFF8D2AF3))),
                 onPressed: () async {
                   context
                       .findAncestorStateOfType<

@@ -94,7 +94,7 @@ class _CupertinoRotationSliderState extends State<CupertinoRotationSlider> {
                       opacity: value.abs() > epsilon ? 1.0 : 0.5,
                       child: CustomPaint(
                         painter: _CupertinoSliderPainter(
-                          primaryColor: CupertinoTheme.of(context).primaryColor,
+                          primaryColor: const Color(0xFF8D2AF3),
                           value: value,
                           isDragging: _dragStartDetails != null,
                         ),

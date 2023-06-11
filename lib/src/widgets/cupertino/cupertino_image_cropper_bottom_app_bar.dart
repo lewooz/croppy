@@ -26,7 +26,7 @@ class CupertinoImageCropperBottomAppBar extends StatelessWidget
           ),
           child: const Text(
             'Cancel',
-            style: TextStyle(color: CupertinoColors.white),
+            style: TextStyle(color: Color(0xFF8D2AF3)),
           ),
         ),
         const Spacer(),
@@ -48,7 +48,7 @@ class CupertinoImageCropperBottomAppBar extends StatelessWidget
             top: 16.0,
             bottom: 16.0,
           ),
-          child: const Text('Done'),
+          child: const Text('Done', style: TextStyle(color: Color(0xFF8D2AF3)),),
         ),
       ],
     );

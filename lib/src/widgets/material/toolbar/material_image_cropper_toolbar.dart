@@ -104,7 +104,7 @@ class MaterialImageCropperToolbar extends StatelessWidget {
                     height: 48.0,
                     child: TextButton(
                       onPressed: () => controller.reset(),
-                      child: const Text('Reset'),
+                      child: const Text('Reset', style: TextStyle(color: Color(0xFF8D2AF3)),),
                     ),
                   ),
                 ),

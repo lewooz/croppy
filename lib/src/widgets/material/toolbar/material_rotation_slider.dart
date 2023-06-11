@@ -92,7 +92,7 @@ class _MaterialRotationSliderState extends State<MaterialRotationSlider> {
                         '${(rotationZ * 180 / pi).round()}°',
                         style: labelStyle?.copyWith(
                           color: value.abs() > epsilon
-                              ? theme.colorScheme.primary
+                              ? const Color(0xFF8D2AF3)
                               : null,
                         ),
                       ),
@@ -105,7 +105,7 @@ class _MaterialRotationSliderState extends State<MaterialRotationSlider> {
                         painter: _MaterialRotationSliderPainter(
                           value: value,
                           baseColor: theme.colorScheme.onBackground,
-                          primaryColor: theme.colorScheme.primary,
+                          primaryColor: const Color(0xFF8D2AF3),
                         ),
                       ),
                     ),
